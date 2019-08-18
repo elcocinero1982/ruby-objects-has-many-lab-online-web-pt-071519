@@ -3,10 +3,7 @@ class Post
  @@all=[]
  
  def initialize(title,name)
-  @title=title
-  @name=name
-  @title=[]
-  
+ @@all=[]
 end
   
   def self.all
