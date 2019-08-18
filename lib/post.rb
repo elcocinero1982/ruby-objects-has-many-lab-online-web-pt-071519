@@ -9,11 +9,11 @@ class Post
   
 end
   
-  def sel.all
+  def self.all
     @@all
   end
   def author_name
-    
+   self.post.name 
     
   end
   
